@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <body>
+    <!-- Navigation Bar -->
+    <nav style="background-color: #1A1A1A; border-bottom: 2px solid #00FF88; padding: 1rem 0;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <h2 class="neon-text" style="margin: 0;"> Data Dynamo</h2>
+            <div style="
+                display: flex;
+                gap: 0.1rem;
+                background: #2D2D2D;
+                padding: 0.1rem 0.1rem;
+                border-radius: 20px;
+                border: 1px solid #00FF88;
+            ">
+                <a href="#home" class="btn" style="padding: 0.4rem 0.5rem; font-size: 0.9rem;">Home</a>
+                <a href="#projects" class="btn" style="padding: 0.4rem 0.5rem; font-size: 0.9rem;">My Projects</a>
+                <a href="https://drive.google.com/file/d/1Fos9hr1w3r6JY-brRha3nEfztw5CqIH6/view?usp=drivesdk" class="btn" target="_blank" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Resume</a>
+                <a href="#contact" class="btn" style="padding: 0.4rem 0.5rem; font-size: 0.9rem;">Contact</a>
+                <a href="#about" class="btn" style="padding: 0.4rem 0.5rem; font-size: 0.9rem;">About</a>
+            </div>
+        </div>
+    </nav>
+<div class="collapse navbar-collapse" id="ftco-nav">
+	      </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitish Kumar - Data Analyst</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #1A1A1A;
+            color:white;
+            line-height: 1.6;
+        }
+
+        /* Utility Classes */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .neon-text {
+            color:white;
+            text-shadow: 0 0 10px #00FF88;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            border-bottom: 3px solid #00FF88;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-buttons {
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            margin: 0 1rem;
+            border: 2px solid #00FF88;
+            border-radius: 30px;
+            text-decoration: none;
+            color: #00FF88;
+            transition: all 0.3s;
+        }
+
+        .btn:hover {
+            background: #00FF88;
+            color: #1A1A1A;
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 4rem 0;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+            /* Hover effects */
+
+           background: #00FF88;
+           color: #c51818;
+            cursor: pointer;
+          }
+        
+        .skill-tag {
+            background: #2D2D2D;
+            padding: 0.8rem 1.5rem;
+            border-radius: 20px;
+            border: 1px solid #00FF88;
+            
+          }
+  
+        /* Projects Grid */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .project-card {
+            background: #2D2D2D;
+            padding: 1.5rem;
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .impact-metric {
+            color: #00FF88;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+
+        /* Experience Timeline */
+        .timeline {
+            position: relative;
+            margin: 4rem 0;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: #2D2D2D;
+            border-left: 3px solid #00FF88;
+        }
+
+        /* Contact Section */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 1rem 0;
+            background: #2D2D2D;
+            border: 1px solid #00FF88;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <img src="C:\Users\lenovo\Documents\Nitish  im.jpg" alt="Project Demo" style="width:20%; border-radius:30px; margin-top:1rem;">
+            <h1 class="neon-text">Nitish Kumar Yadav</h1>
+            <p>Transforming Raw Data into Strategic Decisions</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="https://drive.google.com/file/d/1Fos9hr1w3r6JY-brRha3nEfztw5CqIH6/view?usp=drivesdk" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills container">
+        <h2>Technical Arsenal</h2>
+        <div class="skill-tags">
+            <div class="skill-tag">SQL</div>
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Power BI</div>
+            <div class="skill-tag">Tableau</div>
+            <div class="skill-tag">ETL Pipelines</div>
+            <div class="skill-tag">Machine Learning</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+        <h2>Data Masterpieces</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Online Retails by useing Power BI || Excel</h3>
+                <img src="C:\Users\lenovo\Downloads\online r.jpeg"
+               alt="Online Retails" 
+              style="width: 100%; border-radius: 10px; margin-top: 1rem;"
+                <p> Monthly Revenue Trend – 2011 Area chart showing how revenue fluctuated month by month</p>
+                <p>Top 10 Countries by Revenue (Excluding UK) Identifies key revenue-driving countries like Netherlands, Germany, and France</p>
+                <p>Customers by Revenue Highlights top customers contributing highest sales value</p>
+                
+                <div class="impact-metric">↓ 10% Churn Rate</div>
+                    <a href="https://github.com/022nitish/Tcs_Online_Retails" 
+        target="_blank" 
+        class="github-link"
+    >
+        <img 
+            src="C:\Users\lenovo\Downloads\githuub.png"alt="GitHub" style="width: 40px; margin: 0 10px;"  
+            alt="GitHub" 
+            class="github-icon"
+        >
+    
+    </a>
+            </div>
+            <div class="project-card">
+                <h3>Zomato Sales Analysis by useing SQL||Python||Power BI</h3>
+                <img 
+        src="C:\Users\lenovo\Downloads\zomato.jpeg"
+        alt="Zomato Sales Dashboard" 
+        style="width: 100%; border-radius: 10px; margin-top: 1rem;"
+    >
+                <p>DAX-powered regional performance dashboards</p>
+                <p>This dashboard brings together multiple insights from food delivery data across India, helping analyze restaurant performance, sales trends, and customer voting patterns.</p>
+                <div class="impact-metric">↑ 15% Conversion</div>
+                <a href="https://github.com/022nitish/Zomato-Sales-Dashboard" 
+        target="_blank" 
+        class="github-link"
+    >
+        <img 
+            src="C:\Users\lenovo\Downloads\githuub.png" alt="GitHub" style="width: 40px; margin: 0 10px;" 
+            alt="GitHub" 
+            class="github-icon"
+        >
+    
+    </a>
+            </div>
+            <div class="project-card">
+                <h3>E-Commerce Store by useing SQL||Python||Power BI</h3>
+                <img src="C:\Users\lenovo\Downloads\e commerce.jpeg"
+               alt="E-Commerce Store" 
+              style="width: 100%; border-radius: 10px; margin-top: 1rem;"
+                <p>This dashboard isn’t just a visual – it tells a story. 📈 A story of products, profits, performance, and patterns that help drive real business decisions.</p>
+                <a href="https://github.com/022nitish/E-Commerce-Dashboard" 
+        target="_blank" 
+        class="github-link"
+    >
+        <img 
+            src="C:\Users\lenovo\Downloads\githuub.png" alt="GitHub" style="width: 40px; margin: 0 10px;" 
+            alt="GitHub" 
+            class="github-icon"
+        >
+    
+    </a>
+            </div>
+            <div class="project-card">
+              <h3>Carbon Crunch Emission Analysis Report by useing SQL||Python||Power BI</h3>
+                <img src="C:\Users\lenovo\Downloads\carbon.png"
+               alt="Carbon Crunch Emission" 
+              style="width: 100%; border-radius: 10px; margin-top: 1rem;"
+                
+                <p>This report presents a comprehensive analysis of greenhouse gas (GHG) emissions across various facilities and scopes, as visualized in the Carbon Crunch dashboard. The aim is to identify major contributors and recommend strategies for emission reduction based on observed patterns.</p>
+                <a 
+        href="https://github.com/022nitish/Carbon-Crunch" 
+        target="_blank" 
+        class="github-link"
+    >
+        <img 
+            src="C:\Users\lenovo\Downloads\githuub.png" alt="GitHub" style="width: 40px; margin: 0 10px;" 
+            alt="GitHub" 
+            class="github-icon"
+        >
+    
+    </a>
+            </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="container">
+    <h2>Professional Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div>
+                    <img 
+        src="C:\Users\lenovo\Downloads\Unacademy-Symbol.png" 
+        alt="Unacademy" 
+        style="width: 60px; margin-right: 1rem;"
+    >
+                    <h3>Unacademy</h3><p>Business Development Executive</p>
+                    <p>May 2024 - April 2025</p>
+                    
+                    <p>Automated CRM dashboards ↑18% efficiency</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div>
+                    <img 
+        src="C:\Users\lenovo\Downloads\byjus.png" 
+        alt="Byju's" 
+        style="width: 60px; margin-right: 1rem;"
+                    <h3>BYJU'S</h3><p>Business Development Executive</p>
+                    <p>April 2023 - Feb 2024</p>
+                    <p>Reduced reporting time by 25% via automation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container">
+        <!-- About Section -->
+<section class="container" id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Nitish Kumar Yadav, a passionate Data Analyst with hands-on experience in SQL, Power BI, Excel, and Python. I love transforming data into actionable insights that drive business success.</p>
+</section>
+<section class="container" id="Contact">
+        <div class="contact-form">
+         <h2>Let's Connect!</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea rows="5" placeholder="Message"></textarea>
+                <button class="btn">Send Message</button>
+            </form>
+        
+    
+<div style="text-align: center; margin-top: 2rem;">
+    <a href="https://www.linkedin.com/in/nitish-kumar-yadav-1457b31a5/">
+        <img src="C:\Users\lenovo\Downloads\link.png" alt="LinkedIn" style="width: 40px; margin: 0 10px;">
+    </a>
+    <a href="https://github.com/022nitish">
+        <img src="C:\Users\lenovo\Downloads\githuub.png" alt="GitHub" style="width: 40px; margin: 0 10px;">
+    </a>
+</div>
+        </div>
+        </section>
+    </section>
+</body>
+</html>
